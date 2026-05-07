@@ -10,3 +10,4 @@ ruff
 mypy
 nbstripout
 pre-commit
+networkx>=3.2

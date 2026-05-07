@@ -2,6 +2,7 @@
 
 install:
 	conda env update -f environment.yml --prune
+	pip install -e .
 
 hooks:
 	pre-commit install

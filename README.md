@@ -15,6 +15,10 @@ Create the conda environment:
     conda env create -f environment.yml
     conda activate ot-sae-alignment
 
+Install the package in editable mode:
+
+    pip install -e .
+
 Install git hooks:
 
     make hooks
